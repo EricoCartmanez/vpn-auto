@@ -44,9 +44,10 @@ https://gist.github.com/gboudreau/94bb0c11a6209c82418d01a59d958c93
 
 For other apps I have no idea, google it :)
 
+8 There another tool needed which will produce the tokens and you install it like this:
+`sudo apt-get install oathtool`
 
-
-8. So, the simple script we 'll use will look like this:
+9. So, the simple script we 'll use will look like this:
 ```
 #!/usr/bin/bash
 
@@ -63,11 +64,11 @@ openvpn3 session-start --config MY_NAME
 ```
 
 
-9. In order to use the script and feed the token to it, we 'll use an alias (which you should place in your .bashrc/.zshrc etc)
+10. In order to use the script and feed the token to it, we 'll use an alias (which you should place in your .bashrc/.zshrc etc)
 ```
 alias auto-vpn='touch /tmp/tok;bash /path/to/script.sh < /tmp/tok'
 ```
 
-10. You should be good to go running (in a new shell) `auto-vpn`
+11. You should be good to go running (in a new shell) `auto-vpn`
 
 I know we create the `tok` file already in the script but the alias expects it to be already there before the script runs as it seems, because of the use of `<`. 
