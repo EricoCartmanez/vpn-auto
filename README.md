@@ -44,7 +44,7 @@ https://gist.github.com/gboudreau/94bb0c11a6209c82418d01a59d958c93
 
 For other apps I have no idea, google it :)
 
-8 There another tool needed which will produce the tokens and you install it like this:
+8 There is another tool needed which will produce the tokens and you install it like this:
 `sudo apt-get install oathtool`
 
 9. So, the simple script we 'll use will look like this:
