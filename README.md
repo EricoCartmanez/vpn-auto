@@ -33,7 +33,7 @@ If you want to automate the 2FA also, you will need to have the BASE32 of your 2
 4. If you have the QR code you will need a tool called `zbarimg` which you can install like this:
 `sudo apt-get install zbar-tools`
 
-5. Then `zbarimg QR.png` and you should get the value of "secret" which will look something like this: `F32RFKQYJLMM4B9Q`
+5. Then `zbarimg QR.png` and you should get the value of "secret" which will look somewhat like this: `F32RFKQYJLMM4B9Q`
 
 6. In your .bashrc you should export the value you got:
 `export VPN_BASE32=F32RFKQYJLMM4B9Q`
