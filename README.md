@@ -1,4 +1,4 @@
-## This guide will help you automate your vpn login in linux (ubuntu/debian is used here actually).
+## This guide will help you automate your openvpn3 login in linux (ubuntu/debian).
 
 If you want to automate your openvpn3 login so that you don't have to type username, password and token every time you connect, you can follow this guide.
 Of course the purpose of 2FA is pretty much eliminated with this process so, proceed at your own risk.
